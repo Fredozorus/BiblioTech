@@ -1,0 +1,46 @@
+# Fichiers de build et de débogage
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Bb]uild[Ll]og.*
+
+# Fichiers de configuration Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Fichiers de paquets
+*.nupkg
+# Le dossier où NuGet télécharge les paquets
+packages/
+
+# Répertoires de réinitialisation ReSharper
+_ReSharper*/
+
+# Répertoires de réinitialisation TeamCity
+_TeamCity*
+
+# Fichiers de configuration de l'éditeur de code
+.vs/
+.vscode/
+
+# Autres fichiers et répertoires
+.DS_Store
+.ipynb_checkpoints
+jekyll-metadata
+
+# Fichiers spécifiques à l'application
+# Par exemple, vous pourriez vouloir exclure certains fichiers de configuration spécifiques à votre environnement local
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+
+# Fichiers de journalisation
+*.log
+*.log.*
